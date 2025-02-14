@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>23BCE1128-Question 5</title>
+    <script>
+        reg = prompt("Enter your registration number : ");
+        var regno = "<center>";
+        regno += '<div style="background-color: rgb(195,195,195); padding: 10px; border:red solid 10px;height:25px;width: 80px;">';
+        regno += reg;
+        regno += '</div>';
+        regno += '</center>';
+        regno += '<br>';
+        document.write(regno);
+    </script>
+</head>
+
+<body>
+    <center>
+        <div style="height:30px;width:170PX;border: 3px solid black;padding:7px;color: red;">
+            <center>
+                <p id="My_name">
+                </p>
+            </center>
+        </div>
+    </center>
+
+    <script>
+        var name = prompt("Enter your name : ");
+        document.getElementById("My_name").innerHTML = "*" + name + "*";
+    </script>
+</body>
+
+</html>
